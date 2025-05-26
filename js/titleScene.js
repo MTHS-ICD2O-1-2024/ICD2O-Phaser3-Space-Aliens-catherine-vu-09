@@ -14,7 +14,7 @@ class TitleScene extends Phaser.Scene {
    * This method is the constructor.
    */
   constructor() {
-    super({ key: 'titleScene' })
+    super({ key: "titleScene" })
   }
 
   /**
@@ -32,7 +32,7 @@ class TitleScene extends Phaser.Scene {
    * Use it to load assets.
    */
   preload() {
-    console.log('Title Scene')
+    console.log("Title Scene")
   }
 
   /**

@@ -29,7 +29,7 @@ class SplashScene extends Phaser.Scene {
    * Use it to load assets.
    */
   preload() {
-    console.log('Splash Scene')
+    console.log("Splash Scene")
   }
 
   /**
@@ -48,7 +48,7 @@ class SplashScene extends Phaser.Scene {
    * @param {number} delta - The delta time in ms since the last frame
    */
   update(time, delta) {
-    this.scene.switch('titleScene')
+    this.scene.switch("titleScene")
   }
 }
 
