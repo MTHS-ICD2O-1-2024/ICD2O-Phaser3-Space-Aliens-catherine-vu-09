@@ -12,7 +12,7 @@ import TitleScene from "./titleScene.js"
 
 //create the new scenes 
 const splashScene = new SplashScene()
-const titleScene = TitleScene ()
+const titleScene = new TitleScene ()
 
 /**
 * Start Phaser Game.
@@ -29,7 +29,7 @@ const config = {
     },
   },
   //set background color
-  backgroundColor: 0x5f6e7a,
+  backgroundColor: 0xffffff,
   scale: {
     mode: Phaser.Scale.FIT,
     // we place it in the middle of the page.
