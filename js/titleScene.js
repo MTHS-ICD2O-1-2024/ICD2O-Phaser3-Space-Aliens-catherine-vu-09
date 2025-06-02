@@ -15,6 +15,7 @@ class TitleScene extends Phaser.Scene {
    */
   constructor() {
     super({ key: "titleScene" })
+    this.titleSceneBackgroundImage = null
   }
 
   /**
@@ -33,6 +34,7 @@ class TitleScene extends Phaser.Scene {
    */
   preload() {
     console.log("Title Scene")
+    this.load.image("titleSceneBackground","assets/aliens_screen_image.jpg")
   }
 
   /**
